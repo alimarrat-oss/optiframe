@@ -1,0 +1,13 @@
+{
+ "clear": {
+  "A_ref_silhouette": 48.77,
+  "B_ref_silhouette": 44.68,
+  "n_points": 18,
+  "methode": "continuité des traits de grille (training/grid_reference.py, photo originale 24 Mpx) : premier écart > 0,12 mm à la droite du trait ou disparition du trait"
+ },
+ "dark": {
+  "A_ref_silhouette": 57.58,
+  "B_ref_silhouette": null,
+  "methode": "contrôle manuel : bord gauche à x = 22,98 mm (traits y = 31 et 36 mm), bord droit à x = 80,56 mm (trait y = 26 mm), là où les traits de grille disparaissent sous le verre"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "clear": {
+  "A_sil": 49.15669458438629,
+  "B_sil": 44.51720512528985,
+  "A": 48.78800988885161,
+  "B": 43.56111086177404,
+  "parallaxMax": 0.9526680123856389,
+  "refined": 0,
+  "tilt": 15.08105770297518,
+  "ms": 1792.837654,
+  "ref": {
+   "A_sil": 48.77,
+   "B_sil": 44.68,
+   "methode": "continuité des traits de grille (training/grid_reference.py, photo originale 24 Mpx) : premier écart > 0,12 mm à la droite du trait ou disparition du trait"
+  },
+  "errA": 0.3866945843862837,
+  "errB": -0.1627948747101513
+ },
+ "dark": {
+  "A_sil": 57.52852755968232,
+  "B_sil": 48.93372552545323,
+  "A": 57.05879764346601,
+  "B": 48.199213992389815,
+  "parallaxMax": 0.759571251831622,
+  "refined": 1,
+  "tilt": 11.386640703404444,
+  "ms": 1811.6364900000003,
+  "ref": {
+   "A_sil": 57.58,
+   "B_sil": null,
+   "methode": "contrôle manuel : bord gauche à x = 22,98 mm (traits y = 31 et 36 mm), bord droit à x = 80,56 mm (trait y = 26 mm), là où les traits de grille disparaissent sous le verre"
+  },
+  "errA": -0.05147244031768139,
+  "errB": null
+ }
+}

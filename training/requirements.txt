@@ -1,0 +1,8 @@
+# Entraînement et outils (l'app web n'a aucune dépendance)
+torch>=2.4
+numpy
+opencv-python
+onnx
+onnxruntime
+reportlab      # feuille de capture (assets/make_sheet.py)
+trimesh        # vérification des STL (facultatif)

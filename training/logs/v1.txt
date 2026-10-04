@@ -1,0 +1,4 @@
+== epoch 0 val IoU 0.4625 bord 10.576 mm (664s)
+== epoch 1 val IoU 0.8549 bord 1.806 mm (688s)
+== epoch 2 val IoU 0.9221 bord 0.916 mm (1443s)
+== epoch 3 val IoU 0.9375 bord 0.550 mm (847s)

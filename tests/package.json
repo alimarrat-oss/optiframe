@@ -1,0 +1,13 @@
+{
+  "name": "optiframe-tests",
+  "private": true,
+  "type": "module",
+  "description": "Tests Node/Playwright d'OptiFrame (l'app elle-même n'a aucune dépendance)",
+  "scripts": {
+    "test": "node test_markers.mjs && node test_pipeline.mjs ../models/lensunet && node test_frame.mjs",
+    "robustesse": "node robustness.mjs ../models/lensunet"
+  },
+  "dependencies": {
+    "sharp": "^0.34.0"
+  }
+}
