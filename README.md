@@ -2,7 +2,7 @@
 
 Défi **SN-SF · OptiFrame** (CodeML 2026). Web app mobile qui, à partir d'une photo d'un verre de lunettes posé sur une feuille de capture imprimée, **mesure son contour au millimètre** et **génère une monture sur mesure imprimable en 3D**, même quand le verre droit et le verre gauche n'ont pas la même forme.
 
-- **App en ligne (HTTPS, sans installation ni compte)** : `https://<utilisateur>.github.io/optiframe/` — QR code : bouton ▦ en haut à droite de l'app.
+- **App en ligne (HTTPS, sans installation ni compte)** : `https://alimarrat-oss.github.io/optiframe/` — QR code : bouton ▦ en haut à droite de l'app.
 - **Tout tourne dans le navigateur** : la photo ne quitte jamais le téléphone, aucun serveur, aucune clé API. Après le premier chargement, l'app fonctionne **hors ligne** (service worker), ce qui compte en contexte humanitaire.
 - Interface **bilingue FR / EN** (bouton en haut à droite, ou `?lang=en`).
 
@@ -17,14 +17,14 @@ Défi **SN-SF · OptiFrame** (CodeML 2026). Web app mobile qui, à partir d'une 
 
 ---
 
-## 1. Démarrage
+## 1. Démarrage 
 
 **En ligne** : ouvrir l'URL (ou scanner le QR code) → onglet *Verres* → *Essayer la démo* : deux vraies photos (verre clair en OD, verre teinté en OG) parcourent toute la chaîne jusqu'au STL.
 
 **En local** (l'app n'a aucune dépendance, aucune étape de build) :
 
 ```bash
-git clone https://github.com/<utilisateur>/optiframe.git && cd optiframe
+git clone https://github.com/alimarrat-oss/optiframe.git && cd optiframe
 python3 -m http.server 8080          # puis http://localhost:8080
 ```
 
