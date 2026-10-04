@@ -1,6 +1,0 @@
-node_modules/
-__pycache__/
-*.pyc
-training/runs/
-training/data/
-*.npy
